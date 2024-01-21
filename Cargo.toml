@@ -8,5 +8,8 @@ edition = "2021"
 [dependencies]
 anyhow = { version = "1.0.79", features = [] }
 axum = "0.7.4"
+httpc-test = "0.1.8"
+log = "0.4.20"
 reqwest = { version = "0.11.23", features = ["json"] }
+simple_logger = "4.3.3"
 tokio = { version = "1.35.1", features = ["full"] }
